@@ -11,6 +11,8 @@ declare module 'styled-components' {
       orange: string
       yellow: string
       green: string
+      greenLigth:string
+      redRanger:string
       teal: string
       cyan: string
       blue: string

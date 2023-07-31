@@ -18,9 +18,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${({ theme }) => theme.colors.gray900};
+    background: ${({ theme }) => theme.colors.gray100};
     -webkit-font-smoothing: antialiased;
-    color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.gray600};
   }
 
   body,
@@ -29,6 +29,14 @@ export const GlobalStyle = createGlobalStyle`
   textarea,
   button {
     font: 400 1rem 'Roboto', Helvetica, Arial, sans-serif;
+
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: ${({ theme }) => theme.colors.gray700};
   }
 
   a {
@@ -38,6 +46,9 @@ export const GlobalStyle = createGlobalStyle`
 
   button {
     cursor: pointer;
+    &:active{
+      transform: translateY(2px);
+    }
   }
 
   ul,
