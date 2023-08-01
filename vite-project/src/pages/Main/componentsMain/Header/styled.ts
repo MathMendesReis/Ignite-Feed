@@ -7,6 +7,7 @@ justify-content: center;
 padding: 1.1452rem 0.8425rem;
 background-color: ${({theme})=>theme.colors.gray300};
 gap: 1rem;
+width: 100%;
 h1{
   font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
