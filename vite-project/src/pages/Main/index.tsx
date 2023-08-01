@@ -10,6 +10,8 @@ function Main() {
       <main>
         <Sidebar/>
         <Posts/>
+        <Posts/>
+        <Posts/>
       </main>
     </Container>
     )
