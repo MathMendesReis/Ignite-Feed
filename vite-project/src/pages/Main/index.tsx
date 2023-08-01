@@ -1,10 +1,11 @@
 import { Container } from "./styled"
-import logo from '../../../public/vite.svg'
+import Header from "./componentsMain/Header"
 
 function Main() {
     return (
     <Container>
-          </Container>
+      <Header/>
+    </Container>
     )
 }
 
