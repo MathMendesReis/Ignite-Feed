@@ -3,18 +3,13 @@ import { Container } from "./styled";
 
 export default function InsertNewComentsInPost() {
 
-  // @ts-ignore
-  const [comentsTextAreaValue,setComentsTextAreaValue] = useState('')
+  const [comentsTextAreaValue] = useState('')
   const isDisabled = comentsTextAreaValue ===''? true:false
   return (
     <Container>
       <textarea
-      name=""
-      id=""
-      // @ts-ignore
-      cols="30"
-      // @ts-ignore
-      rows="10"
+      name="coment"
+      id="coment"
       defaultValue={''}
       required
       >
