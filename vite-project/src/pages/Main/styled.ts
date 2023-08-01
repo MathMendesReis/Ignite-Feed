@@ -37,7 +37,19 @@ width: 100vw;
 
   >section:last-child{
     grid-column: 2/2;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: red;
+    height: auto;
+    >div{
+      width: 52rem;
+      min-height: 50vh;
+      background-color: ${({theme})=>theme.colors.gray300};
+      border-radius: 0.5rem;
+    }
+
   }
 }
 @media (max-width:829px) {
