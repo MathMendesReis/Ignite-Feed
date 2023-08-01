@@ -2,13 +2,14 @@ import { useState } from "react";
 import { Container } from "./styled";
 
 export default function InsertNewComentsInPost() {
+
   const [comentsTextAreaValue] = useState('')
   const isDisabled = comentsTextAreaValue ===''? true:false
   return (
     <Container>
       <textarea
-      name=""
-      id=""
+      name="coment"
+      id="coment"
       defaultValue={''}
       required
       >
